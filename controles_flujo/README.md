@@ -13,3 +13,4 @@ if True:
     print("es verdad")
 ```
 ## ciclos
+Son los controles de flujo que repiten codigo
