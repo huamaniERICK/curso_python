@@ -1,4 +1,4 @@
-# controles de flujo
+# CONTROLES DE FLUJO
 todos los programas trabajan a traves de instrucciones ordenadas.
 existen maneras de romper con el flujo normal de los programas creando
 `bifurcaciones` o creando 
@@ -13,4 +13,8 @@ if True:
     print("es verdad")
 ```
 ## ciclos
-Son los controles de flujo que repiten codigo
+Son los controles de flujo que repiten codigo y si sintaxis es la siguiente:
+### for
+> para for:
+
+
