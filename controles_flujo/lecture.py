@@ -47,7 +47,8 @@ contador=0
 oracion:str=input("escribe la oracion:")
 for n in range(0,len(oracion)):
     if oracion [n]==",":
-        contador=+1
-print(f"{n}la pocicion de coma es {contador}")
+        contador+=1
+        print(f"la coma fue encontrada en el indice {n}")
+print("la cantidad de comas encontradas es ",(contador))
     
 
