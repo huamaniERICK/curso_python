@@ -69,3 +69,4 @@ vocales="aeiou"
 for i in range(len(vocales)):
     figura=vocales[i]*(i+1)
     print(figura)
+# crear un programa
