@@ -69,4 +69,43 @@ vocales="aeiou"
 for i in range(len(vocales)):
     figura=vocales[i]*(i+1)
     print(figura)
-# crear un programa
+
+#crear un programa que me muestre la tabla de multiplicar del 1 hasta el 5
+for i in range(1,6):
+    print(f"la tabla de mutiplicar del {i}:")
+    for j in range(1,13):
+        resultado=i*j
+        print(f"{i} X {j}= {resultado}")
+       
+
+# crear un programa que pida un numero y que muestre la tabla de multiplicar de ese numero
+numero=int(input("ingrese un numero del 1 al 12: "))
+for n in range(1,13):
+    resultado=numero*n
+    print(f"{numero} X {n}= {resultado}")
+
+################ WHILE
+condicion=True
+while condicion:
+    eval=input("desea continuar[N/S]: ")
+    if eval=="S":
+        print("continuas en el bucle")
+        continue
+    else:
+        print("se termino el programa")
+        break
+
+contador=0
+while contador<=5:
+    print(contador)
+    contador+=1
+print(f"valor final {contador}")
+
+nombre="jose"
+
+
+# crear un programa que pide la cantidad de notas que se debe registrar luego pedira las notas e imprima el promedio
+notas=4
+while notas==4:
+    print("las notas son ")
+nota=int(input("ingrese sus notas: "))
