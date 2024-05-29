@@ -76,3 +76,56 @@ print(lista_nombres[indice])
 
 pertenencia="edith" in lista_nombres  # True False
 ```
+
+### 5.comparacion  de listas
+Podemos aser uso de los operadores de comparacion para comparar listas 
+**ejem:** 
+
+```python
+compara=[1,2,3]>[1,2,4]
+# 1 no porque son iguales en ambas listas
+# 2 no porque son iguales en ambas listas
+# 3 evalua que es menor que 4 
+# entonces la primera lista es menor que la segunda lista
+print(compara)
+# salida:False
+```
+
+### 6.cuidado con las  copias
+#### dato primitivo
+```python
+nombre="abel"
+otro_nombre=nombre
+print(id(nombre))
+print(id(otro_nombre))
+```
+### 7. FE ERRADAS (Actualizar listas)
+```python
+lista=[1,3,4,5,6]
+lista[0]=2
+print(lista)
+# [2,3,4,5,6,]
+# modificado lista con diccionario
+alumnos=[
+    {
+        "nombre":"abel",
+        "edad":15
+    },
+    {
+        "nombre":"anthony"
+        "edad":29
+    }
+]
+alumnos[0]["edad"]=30
+alumnos[0]={"nombre":"mafer","edad":15}
+alumnos[1]["sexo"]="por definir"
+print(alumnos)
+```
+
+
+### 9.ordenar una lista (sort)
+esta funcion ordena una lista
+
+
+### 10.metodo (copy)
+copia el valor de la lista

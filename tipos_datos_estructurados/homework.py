@@ -51,3 +51,10 @@ indice=lista_alumnos.index[{
 }
 ]
 print(lista_alumnos[indice])
+
+
+# 2 crear una lista con 3 diccionarios donde tendran sus datos de sus mascotas(nombre,edad,sexo,raza)
+# tareas
+# mostrar la lista con los 4 diccionarios
+# editar el 3er registro y cambiarle la edad sin modificar la lista original
+# mostrar la lista original y luego la lista con el tercer registro modificado
