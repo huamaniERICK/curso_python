@@ -106,15 +106,15 @@ lista[0]=2
 print(lista)
 # [2,3,4,5,6,]
 # modificado lista con diccionario
-alumnos=[
-    {
-        "nombre":"abel",
-        "edad":15
-    },
-    {
-        "nombre":"anthony"
-        "edad":29
-    }
+alumnos=[{
+    "nombre":"abel",
+    "edad":15,
+},{
+    "nombre":"anthony"
+    "edad":29,
+
+}
+
 ]
 alumnos[0]["edad"]=30
 alumnos[0]={"nombre":"mafer","edad":15}

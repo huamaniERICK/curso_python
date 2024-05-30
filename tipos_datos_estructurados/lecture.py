@@ -46,10 +46,10 @@ print(copia_lista)
 
 alumnos=[{
     "nombre":"abel",
-        "edad":15
+    "edad":15,
 },{
-    "nombre":"anthony"
-        "edad":29
+    "nombre":"antoni",
+    "edad":29,
 }
 ]
 alumnos[0]["edad"]=30
