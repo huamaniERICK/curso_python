@@ -59,7 +59,9 @@
 # # editar el 3er registro y cambiarle la edad sin modificar la lista original
 # # mostrar la lista original y luego la lista con el tercer registro modificado
 
-mascotas=[{
+
+
+mis_mascotas=[{
     "nombre":"guardian",
     "edad":7,
     "sexo":"macho",
@@ -82,12 +84,28 @@ mascotas=[{
 }
 
 ]
-# print(mascotas)
 
-# mascotas[3]["edad"]=8
-# mascotas[3]={"nombre":"pequeñin","edad":8,"sexo":"hembra","raza":"bengali"}
-# print(mascotas)
+print(mis_mascotas)
 
-copia_mascotas=mascotas.copy()
-print(mascotas)
+mis_mascotas[3]["edad"]=8
+mis_mascotas[3]={"nombre":"pequeñin","edad":8,"sexo":"hembra","raza":"bengali"}
+print(mis_mascotas)
+
+copia_mascotas=mis_mascotas.copy()
+print(mis_mascotas)
 print(copia_mascotas)
+
+# yo como dueño de mis mascotas
+# deseo actualizar la edad de mis mascotas
+# para tener una lista de correcta de mi mascota
+
+# yo como dueño de mis mascotas
+# deseo ver la lista original y la lista modificada
+# para saber si se modifico correctamente los datos que agregue
+
+
+
+# yo como estudiante del tecnologico 
+# deseo ver  mi porcentaje de asistencias 
+# para ver si estoy aprobado o desaprobado en el curso
+
