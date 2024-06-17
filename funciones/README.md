@@ -180,14 +180,16 @@ my_function(1, 2, 3)
 ### Desempaquetado de Argumentos:
 
 - Pasar argumentos desempaquetados a una función desde una lista:
-```python
+```
+python
  Copiar
 def my_function(a, b, c):
     print(a, b, c)
 
 my_list = [1, 2, 3]
 my_function(*my_list)
-``` 
+```
+
  
 ### En resumen
  *el desempaquetado y empaquetado de argumentos* en lenguajes de programación como Python proporciona una forma conveniente de trabajar con funciones que requieren múltiples argumentos de manera flexible. ¡Es una técnica muy útil en el desarrollo de software! 
@@ -200,30 +202,38 @@ my_function(*my_list)
  
 *1.  `print()  ` : Utilizada para imprimir mensajes en la consola.*
  
-```python
+```
+python
  Copiar
 print("Hola, mundo!")
-``` 
+```
+
 *2.    `len()  ` : Devuelve la longitud de un objeto (número de elementos).*
  
-```python
+```
+python
  Copiar
 my_list = [1, 2, 3, 4, 5]
 print(len(my_list))  # Salida: 5
 ```
+
 *3.    `type()  ` : Devuelve el tipo de un objeto.*
  
-```python
+```
+python
  Copiar
 x = 5
 print(type(x))  # Salida: <class 'int'>
-``` 
+```
+
 *4.    `input()  ` : Permite al usuario ingresar datos desde la consola.*
  
-```python
+```
+python
  Copiar
 name = input("Ingrese su nombre: ")
 ```
+
 *5.    `range()  ` : Genera una secuencia de números.*
  
 python
@@ -233,26 +243,40 @@ for i in range(5):
  
 *6.    `sum()  ` : Calcula la suma de elementos en una secuencia.*
  
-```python
+```
+python
  Copiar
 numbers = [1, 2, 3, 4, 5]
 total = sum(numbers)
 print(total)  # Salida: 15
-``` 
+```
+
 *7.    `min()  `  y   ` max()  ` : Encuentran el valor mínimo y máximo en una secuencia.*
  
-```python
+```
+python
  Copiar
 numbers = [10, 5, 8, 20]
 print(min(numbers))  # Salida: 5
 print(max(numbers))  # Salida: 20
 ```
+
 *8.    `abs()  ` : Devuelve el valor absoluto de un número.*
  
-```python
+```
+python
  Copiar
 x = -10
 print(abs(x))  # Salida: 10
 ```
+## tipos de funciones
+### funciones anonimos (funciones lambda)
+### funciones closure
+una funcion  que dentro tiene otra funcion
+`def saludo(nombre):
+        print(f"bienbenido{nombre}*)
+`
+### funciones callback
+### programacion funcional
 
 
