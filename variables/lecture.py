@@ -1,17 +1,29 @@
-import turtle 
-import colorsys
-t = turtle.Turtle()
-s = turtle.screen()
-s.bgcolor("black")
-t.speed(0)
-n = 50
-h = 0
+# # ejemplo lambda
+# saludo=lambda n,a:f"hola,{n},{a}"
+# print(saludo("ruth","castillo"))
+# # crear un programa anonimo que reciba como parametro una lista de 5 numeros y retorne dos listas 
+# # una con los numeros pares y una con numeros impares
 
-for i in range (380):
-    c = colorsys.hsv_to_rgb(h,1,0.8)
-    h = h+1/n
-    t.color(c)
-    t.forward(i*2)
-    t.left(145)
+# lista=[1,2,3,4,5,6,7,8,9,10] 
+# pares=lambda l:[n for n in lista if n%2==0]; impares=lambda l:[n for n in lista if n%2!=0]
+# print(pares(lista))
+# print(impares(lista))
 
-turtle.done()
+# # funciones callbak
+# int(input())
+# def mensaje(m):
+#     print(m)
+# def pedir_nombre():
+#     nombre=input("ingresa tu nombre")
+#     return nombre
+# mensaje(pedir_nombre)
+
+lista=[5,7,8,4,1]
+def num_minimo(l):
+    minimo=l[0]
+    for n in l:
+        if n < minimo:
+            minimo=n
+    return minimo
+print(min(lista))
+    

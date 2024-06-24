@@ -271,12 +271,34 @@ print(abs(x))  # Salida: 10
 ```
 ## tipos de funciones
 ### funciones anonimos (funciones lambda)
+una funcion que no tiene nombre
+`lambda:"hola"`
+```python
+lambda:"hola"
+def saludo():
+    return "hola"
+```
 ### funciones closure
 una funcion  que dentro tiene otra funcion
 `def saludo(nombre):
-        print(f"bienbenido{nombre}*)
+        print(f"bienbenido{nombre}")
 `
 ### funciones callback
+funciones que reciben por parametro otra funcion
+`int(input("ingrese un numero: "))`
 ### programacion funcional
-
+La programacion funcional no requieere que sepas como se desarrrolla y ejecuta el procesamiento de la informacion
+**ejemplo**
+```python
+lista=[5,7,8,4,1]
+def num_minimo(l):
+    minimo=l[0]
+    for n in l:
+        if n < minimo:
+            minimo=n
+        return minimo
+print(min(lista))
+# programacion funcional
+```
+#### averiguar sobre map(), filter(),reduce()
 
