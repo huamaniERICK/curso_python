@@ -300,5 +300,57 @@ def num_minimo(l):
 print(min(lista))
 # programacion funcional
 ```
-#### averiguar sobre map(), filter(),reduce()
+### MAP ()
+La función  map  aplica una función dada a cada elemento de una secuencia `como una lista` y devuelve un nuevo iterable con los resultados. Por ejemplo, si tienes una lista de números y quieres duplicar cada número, puedes usar  map  para aplicar la función de multiplicación por 2 a cada elemento de la lista.
+```python
+numbers = [1, 2, 3, 4, 5]
+doubled_numbers = list(map(lambda x: x * 2, numbers))
+```
+> ejemplo
+```python
+# Lista de temperaturas en grados Celsius
+celsius_temperatures = [0, 10, 20, 30, 40]
+
+# Aplicar la conversión a cada temperatura usando map
+fahrenheit_temperatures = list(map(lambda c: c * 9/5 + 32, celsius_temperatures))
+
+print(fahrenheit_temperatures)
+```
+### FILTER()
+ La función  filter  filtra los elementos de una secuencia basándose en si cumplen una condición dada por una función. Devuelve un nuevo iterable con los elementos que cumplen la condición. Por ejemplo, si tienes una lista de números y quieres filtrar solo los números pares, puedes usar  filter  con una función que compruebe si un número es par.
+```python
+numbers = [1, 2, 3, 4, 5]
+even_numbers = list(filter(lambda x: x % 2 == 0, numbers))
+```
+> ejemplo
+```python
+# Lista de números
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+# Filtrar los números pares usando filter
+even_numbers = list(filter(lambda x: x % 2 == 0, numbers))
+
+print(even_numbers)
+
+```
+### REDUCE()
+La función  reduce  aplica una función acumulativa a los elementos de una secuencia para devolver un único valor. Reduce la secuencia a un solo valor combinando los elementos secuencialmente. Para utilizar  reduce , primero necesitas importarlo del módulo  functools .
+```python
+from functools import reduce
+numbers = [1, 2, 3, 4, 5]
+sum_of_numbers = reduce(lambda x, y: x + y, numbers)
+```
+> ejemplo
+```python
+# Lista de números
+numbers = [1, 2, 3, 4, 5]
+
+# Calcular la suma de los números usando reduce
+sum_of_numbers = reduce(lambda x, y: x + y, numbers)
+
+print(sum_of_numbers)
+
+```
+
+
 
