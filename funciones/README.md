@@ -300,6 +300,7 @@ def num_minimo(l):
 print(min(lista))
 # programacion funcional
 ```
+
 ### MAP ()
 La función  map  aplica una función dada a cada elemento de una secuencia `como una lista` y devuelve un nuevo iterable con los resultados. Por ejemplo, si tienes una lista de números y quieres duplicar cada número, puedes usar  map  para aplicar la función de multiplicación por 2 a cada elemento de la lista.
 ```python
