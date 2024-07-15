@@ -107,3 +107,5 @@ print(multiplicacion.multiplicacion(3, 4))  # Salida: 12
 -un paquete es una colección de módulos organizados en una estructura de directorios. 
 
 -los paquetes se utilizan para organizar módulos relacionados en una estructura de directorios para facilitar la modularidad y la reutilización del código en proyectos más grandes.
+## MODULOS
+El codigo dentro de mi archivo es un 
