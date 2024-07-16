@@ -1,4 +1,4 @@
-"""modulo de operaciones aritmeticasbasicas"""
+"""modulo de operaciones aritmeticasv basicas"""
 def suma(a,b):
     """funcion de suma"""
     return a+b
