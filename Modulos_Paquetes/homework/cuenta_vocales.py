@@ -7,3 +7,5 @@ def f_cuenta_vocales(text:str):
         if n == "a":
             cantidad_vocales+=1
     return cantidad_vocales
+
+

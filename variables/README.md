@@ -21,7 +21,7 @@ mesclado=["hola",10, True,3.14]
 # diccionarios
 Es una coleccion desordenada de pares `clave-valor`.cada elemento esta formado por una clave unica y su valor correspondiente.
 > ejemplo
-```
+```python
 persona={
     "nombre": "juan"
     "edad" : 20
