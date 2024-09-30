@@ -29,3 +29,6 @@ Para crear  un `objeto` primero debemos defini la `clase`.debemos pensar en la `
 En el proceso de diseño de una clase hay que tener encuenta `el principio de responsabilidad unica`, esto intentando  que los `atributos` y los `metodos` esten enfocados en un objeto unico y bien definido. 
 
 ![alt text](<Imagen de WhatsApp 2024-07-24 a las 10.05.55_187e41ce.jpg>)
+
+> [!TIP]
+> *Un paradigma de programacion es un metodo, tecnica o estilo de programar. muchos de los lenguajes de programacion son creados en base de un paradigma, ejemplo java es un lenguje que adopta el paradigma POO(programacion orientada a objetos) sin embargo existen lenguajes de programacion que adoptan varios paradigmas como es el caso de python y javascrip estos son lenguajes paradigmas.
