@@ -48,6 +48,7 @@ class Agencia:
         self.dni=dni
         self.numero_asiento=numero_asiento
         self.fecha_viaje=fecha_viaje
+        self.estado="activo"
     
 # METODOS
     def ingresar_origen(self):
@@ -60,13 +61,24 @@ class Agencia:
         self.destino=destino
         print(f"el destino del viaje es: {self.destino}")
 
-    # def cancelar_viaje(self,cancel_viaje):
+    def cancelar_viaje(self):
+        if self.estado == "activo":
+            self.estado = "cancelado"
+            print("El viaje ha sido cancelado.")
+        else:
+            print("El viaje ya está cancelado.")
+
+    def ver_estado_de_pasaje(self):
+        print(f"Estado del viaje: {self.estado}")
 
 
-    # def estado_pasaje(self):
+    
 
 
 viaje=Agencia("erick","huamani ccahuay",71331386,10,"20-10-2024")
 
-viaje.ingresar_origen()
-viaje.ingrese_destino()
+# viaje.ingresar_origen()
+# viaje.ingrese_destino()
+viaje.cancelar_viaje()
+viaje.ver_estado_de_pasaje()
+viaje.cancelar_viaje()
